@@ -6,7 +6,7 @@ export default function CartDrawer({ open, onClose }) {
   const { items, removeItem, changeQty, total, clear } = useCart()
 
   const buildMsg = () => {
-    const lines = ['Microtuff Solutions — Order Request:']
+    const lines = ['C.G WOOLERY JR — Order Request:']
     items.forEach((i) =>
       lines.push(`- ${i.qty}x ${i.name} ($${(i.qty * i.price).toFixed(2)})`)
     )

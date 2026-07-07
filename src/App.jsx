@@ -128,7 +128,8 @@ export default function App() {
       <footer className="bg-navy-900 border-t border-gold-500/30 mt-auto">
         <div className="max-w-6xl mx-auto px-4 py-6 text-center text-slate-400 text-sm">
           {STORE.name} · {STORE.tagline} · Hours: {STORE.hours}<br />
-          WhatsApp: {STORE.whatsapp} · {STORE.locations.map(l => `${l.name}, ${l.parish}`).join(' · ')}
+          WhatsApp: {STORE.whatsapp} · {STORE.locations.map(l => `${l.name}, ${l.parish}`).join(' · ')}<br />
+          powered by microtuff solutions A.I Division
         </div>
       </footer>
 
