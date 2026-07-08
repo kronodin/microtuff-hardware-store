@@ -96,7 +96,7 @@ export default function App() {
           <div className="text-xs text-slate-300">{STORE.whatsapp}</div>
           <a href={`https://wa.me/${STORE.whatsapp}`} target="_blank" rel="noreferrer" className="mt-2 inline-block bg-green-500 text-white text-xs font-bold px-4 py-2 rounded-xl hover:bg-green-400 transition">Open WhatsApp</a>
         </div>
-        <img src="https://quickchart.io/qr?text=https://wa.me/18763599983src="https://api.qrserver.com/v1/create-qr-code/?size=250x250&data=https://wa.me/18763599983"size=250" alt="WhatsApp QR for {STORE.whatsapp}" className="w-28 h-28 bg-white rounded-xl" />
+        <img src="https://chart.googleapis.com/chart?chs=250x250&cht=qr&chl=https://wa.me/18763599983" alt="WhatsApp QR for {STORE.whatsapp}" className="w-28 h-28 bg-white rounded-xl" />
       </section>
 
       {/* Search */}
