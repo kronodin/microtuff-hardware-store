@@ -10,3 +10,16 @@ body {
   background: #0a1c38;
   color: #f8fafc;
 }
+
+
+/* polished global */
+html { scroll-behavior: smooth; }
+body {
+  background:
+    radial-gradient(circle at 20% 10%, rgba(245,197,66,0.08), transparent 35%),
+    radial-gradient(circle at 80% 0%, rgba(15,42,82,0.6), transparent 50%),
+    #0a1c38;
+  color: #f8fafc;
+}
+input::placeholder { color: #94a3b8; }
+::selection { background: rgba(245,197,66,0.35); color: #0a1c38; }
