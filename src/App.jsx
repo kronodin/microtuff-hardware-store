@@ -88,6 +88,17 @@ export default function App() {
         </div>
       </section>
 
+
+      {/* WhatsApp QR */}
+      <section className="max-w-6xl mx-auto w-full px-4 mt-6 flex flex-wrap items-center gap-6 bg-navy-800/70 border border-gold-500/20 rounded-2xl p-4">
+        <div>
+          <div className="font-bold text-gold-500">Chat on WhatsApp</div>
+          <div className="text-xs text-slate-300">{STORE.whatsapp}</div>
+          <a href={`https://wa.me/${STORE.whatsapp}`} target="_blank" rel="noreferrer" className="mt-2 inline-block bg-green-500 text-white text-xs font-bold px-4 py-2 rounded-xl hover:bg-green-400 transition">Open WhatsApp</a>
+        </div>
+        <img src="https://api.qrserver.com/v1/create-qr-code/?size=250x250&data=https://wa.me/18763599983" alt="WhatsApp QR for {STORE.whatsapp}" className="w-28 h-28 bg-white rounded-xl" />
+      </section>
+
       {/* Search */}
       <div className="max-w-6xl mx-auto w-full px-4 mt-6">
         <input
@@ -129,7 +140,7 @@ export default function App() {
         <div className="max-w-6xl mx-auto px-4 py-6 text-center text-slate-400 text-sm">
           {STORE.name} · {STORE.tagline} · Hours: {STORE.hours}<br />
           WhatsApp: {STORE.whatsapp} · {STORE.locations.map(l => `${l.name}, ${l.parish}`).join(' · ')}<br />
-          powered by microtuff solutions A.I Division
+          Contact: {STORE.supportEmail} · {STORE.supportPhone} · Powered by {STORE.brand} A.I Division
         </div>
       </footer>
 
@@ -156,6 +167,10 @@ function ProductCard({ product }) {
           >
             Add
           </button>
+        </div>
+        <div className="mt-2 flex items-center justify-between text-[11px] font-medium">
+          <span className={`${product.stockLabel === 'In Stock' ? 'text-emerald-300' : product.stockLabel === 'Limited' ? 'text-amber-300' : 'text-red-300'}`}>{product.stockLabel}</span>
+          {product.stock > 0 ? <span className="text-slate-400">{product.stock} left</span> : null}
         </div>
       </div>
     </div>

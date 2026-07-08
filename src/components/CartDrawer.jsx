@@ -1,9 +1,34 @@
 import React, { useState } from 'react'
-import { useCart } from '../context/CartContext'
+import { useCart } from '../CartContext'
 import { STORE, PAYMENT } from '../data'
+
+function buildMsg(cart, total, meta = {}) {
+  const line = (i) => `- ${i.qty}x ${i.name} ($${(i.price * i.qty).toFixed(2)})`
+  const body = cart.map(line).join('\n')
+  const metaLines = [
+    meta.name ? `Customer: ${meta.name}` : '',
+    meta.phone ? `Phone: ${meta.phone}` : '',
+    meta.location ? `Dispatch: ${STORE.locations.find(l => l.id === meta.location)?.label || meta.location}` : '',
+    meta.paid ? `Payment: ${meta.paid}` : '',
+  ].filter(Boolean)
+  return `📦 ORDER REQUEST — ${STORE.name}\n${metaLines.join('\n')}\n${PAYMENT.note}\n\n----------------------------------\n${body}\n----------------------------------\nTotal Due: $${total.toFixed(2)}`
+}
 
 export default function CartDrawer({ open, onClose }) {
   const { cart, items, remove, updateQty, total, count } = useCart()
+  const [name, setName] = useState('')
+  const [phone, setPhone] = useState('')
+  const [location, setLocation] = useState('')
+  const [paid, setPaid] = useState('')
+
+  const submit = (e) => {
+    e.preventDefault()
+    if (cart.length === 0) return alert('Cart is empty.')
+    const msg = buildMsg(cart, total, { name, phone, location, paid })
+    const url = `https://wa.me/${STORE.whatsapp}?text=${encodeURIComponent(msg)}`
+    onClose()
+    window.open(url, '_blank')
+  }
 
   return (
     <div className="fixed inset-0 z-[60]">
@@ -37,75 +62,34 @@ export default function CartDrawer({ open, onClose }) {
         </div>
 
         {cart.length > 0 && (
-          <div className="p-4 border-t border-white/10 bg-slate-900/60">
-            <OrderSummary cart={cart} total={total} onClose={onClose} />
-          </div>
+          <form onSubmit={submit} className="p-4 border-t border-white/10 bg-slate-900/60 space-y-2">
+            <div className="text-white font-semibold">Checkout</div>
+            <div className="bg-navy-900/60 border border-gold-500/20 rounded-lg p-3 text-xs text-sky-300">
+              <div className="font-bold text-gold-500 mb-2">Pick up & pay at:</div>
+              <ul className="list-disc pl-4 space-y-1">
+                {STORE.locations.map(l => <li key={l.id}>{l.label}</li>)}
+              </ul>
+              <div className="mt-2 pt-2 border-t border-white/10">
+                <div className="font-bold text-gold-500 mb-1">Payment</div>
+                <div>Cash App: <span className="text-white">{PAYMENT.cashapp}</span></div>
+                <div>Zelle: <span className="text-white">{PAYMENT.zelle}</span></div>
+                <div className="mt-1 italic">{PAYMENT.note}</div>
+              </div>
+              <div className="mt-2 pt-2 border-t border-white/10 text-white">
+                Total: ${total.toFixed(2)}
+              </div>
+            </div>
+            <input value={name} onChange={e => setName(e.target.value)} placeholder="Full Name" className="w-full rounded-lg bg-black/20 border border-white/10 p-2 text-slate-100 placeholder:text-slate-400" required />
+            <input value={phone} onChange={e => setPhone(e.target.value)} placeholder="Phone Number" className="w-full rounded-lg bg-black/20 border border-white/10 p-2 text-slate-100 placeholder:text-slate-400" required />
+            <select value={location} onChange={e => setLocation(e.target.value)} className="w-full rounded-lg bg-black/20 border border-white/10 p-2 text-slate-100" required>
+              <option value="">Select pickup / dispatch location...</option>
+              {STORE.locations.map(l => <option key={l.id} value={l.id}>{l.label}</option>)}
+            </select>
+            <input value={paid} onChange={e => setPaid(e.target.value)} placeholder="Cash App / Zelle payment proof or handle (optional)" className="w-full rounded-lg bg-black/20 border border-white/10 p-2 text-slate-100 placeholder:text-slate-400" />
+            <button type="submit" className="w-full py-3 bg-green-500 hover:bg-green-400 text-white rounded-xl font-bold">Place Order on WhatsApp</button>
+          </form>
         )}
       </div>
     </div>
-  )
-}
-
-function OrderSummary({ cart, total, onClose }) {
-  return (
-    <details className="bg-white/5 border border-white/10 rounded-xl" open>
-      <summary className="px-3 py-2 text-white font-semibold">Checkout</summary>
-      <div className="px-3 pb-3">
-        <div className="bg-navy-900/60 border border-gold-500/20 rounded-lg p-3 text-xs text-sky-300">
-          <div className="font-bold text-gold-500 mb-2">Pick up & pay at:</div>
-          <ul className="list-disc pl-4 space-y-1">
-            {STORE.locations.map(l => <li key={l.id}>{l.label}</li>)}
-          </ul>
-          <div className="mt-2 pt-2 border-t border-white/10">
-            <div className="font-bold text-gold-500 mb-1">Payment</div>
-            <div>Cash App: <span className="text-white">{PAYMENT.cashapp}</span></div>
-            <div>Zelle: <span className="text-white">{PAYMENT.zelle}</span></div>
-            <div className="mt-1 italic">Order is dispatched once payment clears.</div>
-          </div>
-        </div>
-
-        <CheckoutForm cart={cart} total={total} onClose={onClose} />
-      </div>
-    </details>
-  )
-}
-
-function CheckoutForm({ cart, total, onClose }) {
-  const [name, setName] = useState('')
-  const [phone, setPhone] = useState('')
-  const [location, setLocation] = useState('')
-  const [paid, setPaid] = useState('')
-
-  const renderLines = () => cart.map(i => `- ${i.qty}x ${i.name} ($${(i.price * i.qty).toFixed(2)})`).join('\n')
-
-  const submit = (e) => {
-    e.preventDefault()
-    if (!name.trim() || !phone.trim() || !location) return alert('Name, phone, and pickup location are required.')
-    if (cart.length === 0) return alert('Cart is empty.')
-
-    const locLabel = STORE.locations.find(l => l.id === location)?.label || location
-    const msg = `📦 NEW ORDER — ${STORE.name}\nCustomer: ${name}\nPhone: ${phone}\nPickup/Dispatch: ${locLabel}\nPayment: ${paid.trim() || 'pending'}\n\n${PAYMENT.note}\n\n----------------------------------\n${renderLines()}\n----------------------------------\nTotal Due: $${total.toFixed(2)}`
-    const url = `https://wa.me/${STORE.whatsapp}?text=${encodeURIComponent(msg)}`
-    onClose()
-    window.open(url, '_blank')
-  }
-
-  return (
-    <form onSubmit={submit} className="mt-3 space-y-2">
-      <input value={name} onChange={e => setName(e.target.value)} placeholder="Full Name"
-        className="w-full rounded-lg bg-black/20 border border-white/10 p-2 text-slate-100 placeholder:text-slate-400" />
-      <input value={phone} onChange={e => setPhone(e.target.value)} placeholder="Phone Number"
-        className="w-full rounded-lg bg-black/20 border border-white/10 p-2 text-slate-100 placeholder:text-slate-400" />
-      <select value={location} onChange={e => setLocation(e.target.value)}
-        className="w-full rounded-lg bg-black/20 border border-white/10 p-2 text-slate-100">
-        <option value="">Select pickup / dispatch location...</option>
-        {STORE.locations.map(l => <option key={l.id} value={l.id}>{l.label}</option>)}
-      </select>
-      <input value={paid} onChange={e => setPaid(e.target.value)} placeholder="Cash App / Zelle payment proof or handle (optional)"
-        className="w-full rounded-lg bg-black/20 border border-white/10 p-2 text-slate-100 placeholder:text-slate-400" />
-      <button type="submit" className="w-full py-3 bg-green-500 hover:bg-green-400 text-white rounded-xl font-bold">
-        Place Order on WhatsApp
-      </button>
-    </form>
   )
 }
