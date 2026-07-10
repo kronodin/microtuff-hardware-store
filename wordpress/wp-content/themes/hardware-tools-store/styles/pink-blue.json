@@ -1,0 +1,81 @@
+{
+  "$schema": "https://schemas.wp.org/trunk/theme.json",
+  "title": "Pink-Blue",
+  "version": 2,
+  "settings": {
+    "color": {
+        "palette": [
+            {
+                "color": "#ffffff",
+                "name": "Base",
+                "slug": "base"
+            },
+            {
+                "color": "#F5B4B4",
+                "name": "Primary",
+                "slug": "primary"
+            },
+            {
+                "color": "#FDD5D5",
+                "name": "Primary Light",
+                "slug": "primary-light"
+            },
+            {
+                "color": "#191F58",
+                "name": "Secondary",
+                "slug": "secondary"
+            },
+            {
+                "color": "#d6d9f9",
+                "name": "Banner Background",
+                "slug": "banner-background"
+            },
+            {
+                "color": "#65677c",
+                "name": "Product Background",
+                "slug": "product-background"
+            },
+            {
+                "color": "#000000",
+                "name": "Headings",
+                "slug": "heading"
+            },
+            {
+                "color": "#191C1F",
+                "name": "Body Text",
+                "slug": "body-text"
+            },
+            {
+                "color": "#f8f8f8",
+                "name": "Section Background",
+                "slug": "section-bg"
+            },
+            {
+                "color": "#ffffff",
+                "name": "Background",
+                "slug": "background"
+            },
+            {
+                "color": "#000000",
+                "name": "Foreground",
+                "slug": "foreground"
+            },
+            {
+                "color":"#191F58",
+                "name": "Footer Bg",
+                "slug": "footer-Bg"
+            },
+            {
+                "color":"#dfdfdf",
+                "name": "Border Color",
+                "slug": "border-color"
+            },
+            {
+                "color":"#a7aaad",
+                "name": "Sidebar Shadow Color",
+                "slug": "sidebar-shadow-color"
+            }
+        ]
+    }
+  }
+}

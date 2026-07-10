@@ -1,0 +1,81 @@
+{
+  "$schema": "https://schemas.wp.org/trunk/theme.json",
+  "title": "Yellow-Blue",
+  "version": 2,
+  "settings": {
+    "color": {
+        "palette": [
+            {
+                "color": "#ffffff",
+                "name": "Base",
+                "slug": "base"
+            },
+            {
+                "color": "#FAB915",
+                "name": "Primary",
+                "slug": "primary"
+            },
+            {
+                "color": "#FBD470",
+                "name": "Primary Light",
+                "slug": "primary-light"
+            },
+            {
+                "color": "#202447",
+                "name": "Secondary",
+                "slug": "secondary"
+            },
+            {
+                "color": "#fbf2dd",
+                "name": "Banner Background",
+                "slug": "banner-background"
+            },
+            {
+                "color": "#ffeec3",
+                "name": "Product Background",
+                "slug": "product-background"
+            },
+            {
+                "color": "#000000",
+                "name": "Headings",
+                "slug": "heading"
+            },
+            {
+                "color": "#191C1F",
+                "name": "Body Text",
+                "slug": "body-text"
+            },
+            {
+                "color": "#f8f8f8",
+                "name": "Section Background",
+                "slug": "section-bg"
+            },
+            {
+                "color": "#ffffff",
+                "name": "Background",
+                "slug": "background"
+            },
+            {
+                "color": "#000000",
+                "name": "Foreground",
+                "slug": "foreground"
+            },
+            {
+                "color":"#171A2D",
+                "name": "Footer Bg",
+                "slug": "footer-Bg"
+            },
+            {
+                "color":"#dfdfdf",
+                "name": "Border Color",
+                "slug": "border-color"
+            },
+            {
+                "color":"#a7aaad",
+                "name": "Sidebar Shadow Color",
+                "slug": "sidebar-shadow-color"
+            }
+        ]
+    }
+  }
+}

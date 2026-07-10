@@ -1,0 +1,1748 @@
+# Copyright (C) 2026 pewilliams
+# This file is distributed under the GNU General Public License.
+msgid ""
+msgstr ""
+"Project-Id-Version: Hardware Tools Store 3.4\n"
+"Report-Msgid-Bugs-To: https://wordpress.org/support/theme/hardware-tools-store\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"POT-Creation-Date: 2026-03-20T05:08:15+00:00\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"X-Generator: WP-CLI 2.11.0\n"
+"X-Domain: hardware-tools-store\n"
+
+#. Theme Name of the theme
+#: style.css
+#: block-patterns.php:17
+msgid "Hardware Tools Store"
+msgstr ""
+
+#. Theme URI of the theme
+#: style.css
+msgid "https://www.ovationthemes.com/products/free-hardware-store-wordpress-theme"
+msgstr ""
+
+#. Description of the theme
+#: style.css
+msgid "The Hardware Tools Store theme is your ideal solution for establishing a vibrant online retail shop focused on hardware and construction tools. Whether you're selling a variety of tools, DIY supplies, or repair equipment, this theme effectively showcases your products to attract customers. Designed with a user-friendly interface, it allows you to set up and manage your ecommerce store without needing any technical expertise, while seamlessly integrating vital plugins like WooCommerce for straightforward product management. Its multipurpose functionality is perfect for diverse businesses, including construction companies, tool retailers, and home maintenance services. The responsive design ensures that your online store looks impressive and operates smoothly on any device, from desktops to smartphones. With features such as product galleries, advanced search filters, secure payment options, and customizable layouts, the Hardware Tools Store theme enhances the shopping experience and helps you build a strong online presence in the tools and equipment sector."
+msgstr ""
+
+#. Author of the theme
+#: style.css
+msgid "pewilliams"
+msgstr ""
+
+#. Author URI of the theme
+#: style.css
+msgid "https://www.ovationthemes.com/"
+msgstr ""
+
+#: custom-setting.php:17
+msgid "Theme Settings"
+msgstr ""
+
+#: custom-setting.php:34
+msgid "Animation Settings"
+msgstr ""
+
+#: custom-setting.php:41
+msgid "Enable Animations"
+msgstr ""
+
+#: inc/admin/theme-upsell.php:16
+msgid "Hardware Tools Store Pro"
+msgstr ""
+
+#: inc/admin/theme-upsell.php:29
+msgid "Upgrade to Hardware Tools Store Pro 🚀"
+msgstr ""
+
+#: inc/admin/theme-upsell.php:34
+msgid "Take Your Hardware Tools Store Business to the Next Level"
+msgstr ""
+
+#: inc/admin/theme-upsell.php:35
+msgid "Get access to premium features, advanced layouts, and priority support"
+msgstr ""
+
+#: inc/admin/theme-upsell.php:42
+msgid "Site Editor"
+msgstr ""
+
+#: inc/admin/theme-upsell.php:47
+msgid "Customize"
+msgstr ""
+
+#: inc/admin/theme-upsell.php:55
+#: inc/dashboard/welcome-notice.php:217
+msgid "Begin Installation"
+msgstr ""
+
+#: inc/admin/theme-upsell.php:59
+msgid "View Site"
+msgstr ""
+
+#: inc/admin/theme-upsell.php:67
+#: inc/dashboard/welcome-notice.php:221
+msgid "Live Demo"
+msgstr ""
+
+#: inc/admin/theme-upsell.php:71
+#: inc/dashboard/welcome-notice.php:222
+msgid "Get Pro Theme"
+msgstr ""
+
+#: inc/admin/theme-upsell.php:75
+msgid "Documentation"
+msgstr ""
+
+#: inc/admin/theme-upsell.php:79
+msgid "WordPress Theme Bundle"
+msgstr ""
+
+#: inc/admin/theme-upsell.php:84
+msgid "Hardware Tools Store Theme Screenshot"
+msgstr ""
+
+#: inc/admin/theme-upsell.php:90
+msgid "Why Upgrade to Pro?"
+msgstr ""
+
+#: inc/admin/theme-upsell.php:95
+msgid "Different styling Options"
+msgstr ""
+
+#: inc/admin/theme-upsell.php:96
+msgid "This content will change based on different styling options."
+msgstr ""
+
+#: inc/admin/theme-upsell.php:101
+msgid "Section Reordering Option"
+msgstr ""
+
+#: inc/admin/theme-upsell.php:102
+msgid "Sections can be reordered or rearranged as per your preference."
+msgstr ""
+
+#: inc/admin/theme-upsell.php:107
+msgid "Footer Builder"
+msgstr ""
+
+#: inc/admin/theme-upsell.php:108
+msgid "Create custom footers with advanced widgets"
+msgstr ""
+
+#: inc/admin/theme-upsell.php:113
+#: inc/admin/theme-upsell.php:168
+#: inc/customizer/customizer.php:32
+msgid "Typography Controls"
+msgstr ""
+
+#: inc/admin/theme-upsell.php:114
+msgid "Full control over fonts, sizes, and text styling"
+msgstr ""
+
+#: inc/admin/theme-upsell.php:119
+#: inc/admin/theme-upsell.php:173
+msgid "WooCommerce Styling"
+msgstr ""
+
+#: inc/admin/theme-upsell.php:120
+msgid "Advanced WooCommerce integration with custom product layouts"
+msgstr ""
+
+#: inc/admin/theme-upsell.php:125
+msgid "Advanced Options"
+msgstr ""
+
+#: inc/admin/theme-upsell.php:126
+msgid "Advanced theme options available for themes"
+msgstr ""
+
+#: inc/admin/theme-upsell.php:131
+msgid "Performance Optimized"
+msgstr ""
+
+#: inc/admin/theme-upsell.php:132
+msgid "3X faster loading with optimized code and assets"
+msgstr ""
+
+#: inc/admin/theme-upsell.php:137
+#: inc/admin/theme-upsell.php:193
+#: inc/customizer/customizer.php:34
+msgid "Priority Support"
+msgstr ""
+
+#: inc/admin/theme-upsell.php:138
+msgid "Get expert help within 24 hours through our priority support system"
+msgstr ""
+
+#: inc/admin/theme-upsell.php:143
+msgid "Unlimited Color Schemes"
+msgstr ""
+
+#: inc/admin/theme-upsell.php:144
+msgid "Customize every color to match your brand identity with unlimited color options"
+msgstr ""
+
+#: inc/admin/theme-upsell.php:149
+#: inc/customizer/customizer.php:35
+msgid "One-Click Demo Import"
+msgstr ""
+
+#: inc/admin/theme-upsell.php:150
+msgid "Import complete demo content with just one click and get started instantly"
+msgstr ""
+
+#: inc/admin/theme-upsell.php:156
+msgid "Free vs Pro Comparison"
+msgstr ""
+
+#: inc/admin/theme-upsell.php:161
+msgid "Feature"
+msgstr ""
+
+#: inc/admin/theme-upsell.php:162
+msgid "Free"
+msgstr ""
+
+#: inc/admin/theme-upsell.php:163
+msgid "Pro"
+msgstr ""
+
+#: inc/admin/theme-upsell.php:169
+#: inc/admin/theme-upsell.php:184
+msgid "Limited"
+msgstr ""
+
+#: inc/admin/theme-upsell.php:170
+msgid "Full Control"
+msgstr ""
+
+#: inc/admin/theme-upsell.php:178
+msgid "Custom Widgets"
+msgstr ""
+
+#: inc/admin/theme-upsell.php:179
+msgid "Basic"
+msgstr ""
+
+#: inc/admin/theme-upsell.php:180
+#: inc/admin/theme-upsell.php:225
+msgid "Advanced"
+msgstr ""
+
+#: inc/admin/theme-upsell.php:183
+msgid "Color Schemes"
+msgstr ""
+
+#: inc/admin/theme-upsell.php:185
+msgid "Unlimited"
+msgstr ""
+
+#: inc/admin/theme-upsell.php:188
+msgid "Demo Import"
+msgstr ""
+
+#: inc/admin/theme-upsell.php:198
+msgid "Custom Post Types"
+msgstr ""
+
+#: inc/admin/theme-upsell.php:203
+msgid "Page Builder Integration"
+msgstr ""
+
+#: inc/admin/theme-upsell.php:204
+msgid "Gutenberg"
+msgstr ""
+
+#: inc/admin/theme-upsell.php:205
+msgid "Gutenberg/Customizer"
+msgstr ""
+
+#: inc/admin/theme-upsell.php:208
+msgid "Speed Optimization"
+msgstr ""
+
+#: inc/admin/theme-upsell.php:209
+msgid "Standard"
+msgstr ""
+
+#: inc/admin/theme-upsell.php:210
+msgid "Advanced (3X Faster)"
+msgstr ""
+
+#: inc/admin/theme-upsell.php:213
+msgid "Sticky Header"
+msgstr ""
+
+#: inc/admin/theme-upsell.php:218
+msgid "Preloader Options"
+msgstr ""
+
+#: inc/admin/theme-upsell.php:223
+msgid "Blog Layouts"
+msgstr ""
+
+#: inc/admin/theme-upsell.php:224
+msgid "1"
+msgstr ""
+
+#: inc/admin/theme-upsell.php:232
+msgid "What Our Users Say"
+msgstr ""
+
+#: inc/admin/theme-upsell.php:237
+msgid "\"I was looking for a clean and professional theme for my hardware tools store website and this theme delivered exactly that. Setup was quick and the layout looks very modern.\""
+msgstr ""
+
+#: inc/admin/theme-upsell.php:238
+msgid "- John D."
+msgstr ""
+
+#: inc/admin/theme-upsell.php:243
+msgid "\"The theme design is professional and easy to customize. The documentation helped me set up my accounting website without any issues.\""
+msgstr ""
+
+#: inc/admin/theme-upsell.php:244
+msgid "- Sarah M."
+msgstr ""
+
+#: inc/admin/theme-upsell.php:249
+msgid "\"Very flexible and beginner-friendly. I was able to adjust colors, sections, and layouts directly from the Customizer. Highly recommended.\""
+msgstr ""
+
+#: inc/admin/theme-upsell.php:250
+msgid "- Michael R."
+msgstr ""
+
+#: inc/admin/theme-upsell.php:255
+msgid "\"The mobile responsive design works perfectly. Most of my clients visit from their phones, and the site looks clean and professional.\""
+msgstr ""
+
+#: inc/admin/theme-upsell.php:256
+msgid "- Emily T."
+msgstr ""
+
+#: inc/admin/theme-upsell.php:261
+msgid "\"Great theme for tax professionals. The service sections and homepage layout helped me present my services clearly to potential clients.\""
+msgstr ""
+
+#: inc/admin/theme-upsell.php:262
+msgid "- David L."
+msgstr ""
+
+#: inc/admin/theme-upsell.php:267
+msgid "\"Customer support is very helpful and responsive. They guided me during setup and solved my issue quickly.\""
+msgstr ""
+
+#: inc/admin/theme-upsell.php:268
+msgid "- Jennifer K."
+msgstr ""
+
+#: inc/admin/theme-upsell.php:273
+msgid "\"Fast loading and SEO friendly. After launching my website with this theme, I started receiving more inquiries from clients.\""
+msgstr ""
+
+#: inc/admin/theme-upsell.php:274
+msgid "- Robert H."
+msgstr ""
+
+#: inc/admin/theme-upsell.php:279
+msgid "\"A very good theme with useful features for hardware tools store businesses. Easy to install and configure.\""
+msgstr ""
+
+#: inc/admin/theme-upsell.php:280
+msgid "- Lisa P."
+msgstr ""
+
+#: inc/admin/theme-upsell.php:286
+msgid "Ready to Upgrade?"
+msgstr ""
+
+#: inc/admin/theme-upsell.php:287
+msgid "Join hundreds of satisfied customers who upgraded to Pro"
+msgstr ""
+
+#: inc/admin/theme-upsell.php:289
+msgid "Get Hardware Tools Store Pro Now"
+msgstr ""
+
+#: inc/admin/theme-upsell.php:294
+msgid "Need help? Contact our <a href=\"%s\" target=\"_blank\">support</a> team anytime."
+msgstr ""
+
+#: inc/customizer/customizer.php:14
+msgid "🔒 Unlock Premium Features"
+msgstr ""
+
+#: inc/customizer/customizer.php:27
+msgid "Unlock Advanced Features"
+msgstr ""
+
+#: inc/customizer/customizer.php:28
+msgid "Upgrade to Pro to get:"
+msgstr ""
+
+#: inc/customizer/customizer.php:30
+msgid "12+ Premium Header Layouts"
+msgstr ""
+
+#: inc/customizer/customizer.php:31
+msgid "Advanced Footer Builder"
+msgstr ""
+
+#: inc/customizer/customizer.php:33
+msgid "WooCommerce Styling Options"
+msgstr ""
+
+#: inc/customizer/customizer.php:39
+msgid "View All Features"
+msgstr ""
+
+#: inc/customizer/customizer.php:43
+msgid "Upgrade Now 🚀"
+msgstr ""
+
+#: inc/customizer/customizer.php:47
+msgid "WordPress Bundle 🎁"
+msgstr ""
+
+#: inc/dashboard/dashboard.php:4
+msgid "https://wordpress.org/support/theme/hardware-tools-store/"
+msgstr ""
+
+#: inc/dashboard/dashboard.php:7
+msgid "https://wordpress.org/support/theme/hardware-tools-store/reviews/"
+msgstr ""
+
+#: inc/dashboard/dashboard.php:10
+msgid "https://trial.ovationthemes.com/hardware-tools-store-pro/"
+msgstr ""
+
+#: inc/dashboard/dashboard.php:13
+msgid "https://www.ovationthemes.com/products/tools-wordpress-theme"
+msgstr ""
+
+#: inc/dashboard/dashboard.php:16
+msgid "https://trial.ovationthemes.com/docs/ot-hardware-tools-store-pro-doc/"
+msgstr ""
+
+#: inc/dashboard/dashboard.php:19
+msgid "https://trial.ovationthemes.com/docs/ot-hardware-tools-store-free-doc/"
+msgstr ""
+
+#: inc/dashboard/dashboard.php:22
+msgid "Premium Hardware Tools Store Theme"
+msgstr ""
+
+#: inc/dashboard/dashboard.php:25
+msgid "https://www.ovationthemes.com/products/wordpress-bundle"
+msgstr ""
+
+#: inc/dashboard/welcome-notice.php:51
+#: inc/dashboard/welcome-notice.php:89
+#: inc/TGM/tgm.php:36
+msgid "Ovation Elements"
+msgstr ""
+
+#: inc/dashboard/welcome-notice.php:211
+msgid "For information and detailed instructions, check out our theme documentation."
+msgstr ""
+
+#: inc/dashboard/welcome-notice.php:220
+msgid "Theme Informations"
+msgstr ""
+
+#: inc/TGM/class-tgm-plugin-activation.php:340
+msgid "Install Required Plugins"
+msgstr ""
+
+#: inc/TGM/class-tgm-plugin-activation.php:341
+msgid "Install Plugins"
+msgstr ""
+
+#. translators: %s: plugin name.
+#: inc/TGM/class-tgm-plugin-activation.php:343
+msgid "Installing Plugin: %s"
+msgstr ""
+
+#. translators: %s: plugin name.
+#: inc/TGM/class-tgm-plugin-activation.php:345
+msgid "Updating Plugin: %s"
+msgstr ""
+
+#: inc/TGM/class-tgm-plugin-activation.php:346
+msgid "Something went wrong with the plugin API."
+msgstr ""
+
+#. translators: 1: plugin name(s).
+#: inc/TGM/class-tgm-plugin-activation.php:348
+msgid "This theme requires the following plugin: %1$s."
+msgid_plural "This theme requires the following plugins: %1$s."
+msgstr[0] ""
+msgstr[1] ""
+
+#. translators: 1: plugin name(s).
+#: inc/TGM/class-tgm-plugin-activation.php:354
+msgid "This theme recommends the following plugin: %1$s."
+msgid_plural "This theme recommends the following plugins: %1$s."
+msgstr[0] ""
+msgstr[1] ""
+
+#. translators: 1: plugin name(s).
+#: inc/TGM/class-tgm-plugin-activation.php:360
+msgid "The following plugin needs to be updated to its latest version to ensure maximum compatibility with this theme: %1$s."
+msgid_plural "The following plugins need to be updated to their latest version to ensure maximum compatibility with this theme: %1$s."
+msgstr[0] ""
+msgstr[1] ""
+
+#. translators: 1: plugin name(s).
+#: inc/TGM/class-tgm-plugin-activation.php:366
+msgid "There is an update available for: %1$s."
+msgid_plural "There are updates available for the following plugins: %1$s."
+msgstr[0] ""
+msgstr[1] ""
+
+#. translators: 1: plugin name(s).
+#: inc/TGM/class-tgm-plugin-activation.php:372
+msgid "The following required plugin is currently inactive: %1$s."
+msgid_plural "The following required plugins are currently inactive: %1$s."
+msgstr[0] ""
+msgstr[1] ""
+
+#. translators: 1: plugin name(s).
+#: inc/TGM/class-tgm-plugin-activation.php:378
+msgid "The following recommended plugin is currently inactive: %1$s."
+msgid_plural "The following recommended plugins are currently inactive: %1$s."
+msgstr[0] ""
+msgstr[1] ""
+
+#: inc/TGM/class-tgm-plugin-activation.php:383
+msgid "Begin installing plugin"
+msgid_plural "Begin installing plugins"
+msgstr[0] ""
+msgstr[1] ""
+
+#: inc/TGM/class-tgm-plugin-activation.php:388
+msgid "Begin updating plugin"
+msgid_plural "Begin updating plugins"
+msgstr[0] ""
+msgstr[1] ""
+
+#: inc/TGM/class-tgm-plugin-activation.php:393
+msgid "Begin activating plugin"
+msgid_plural "Begin activating plugins"
+msgstr[0] ""
+msgstr[1] ""
+
+#: inc/TGM/class-tgm-plugin-activation.php:398
+msgid "Return to Required Plugins Installer"
+msgstr ""
+
+#: inc/TGM/class-tgm-plugin-activation.php:399
+msgid "Return to the Dashboard"
+msgstr ""
+
+#: inc/TGM/class-tgm-plugin-activation.php:400
+#: inc/TGM/class-tgm-plugin-activation.php:3311
+msgid "Plugin activated successfully."
+msgstr ""
+
+#: inc/TGM/class-tgm-plugin-activation.php:401
+#: inc/TGM/class-tgm-plugin-activation.php:3103
+msgid "The following plugin was activated successfully:"
+msgid_plural "The following plugins were activated successfully:"
+msgstr[0] ""
+msgstr[1] ""
+
+#. translators: 1: plugin name.
+#: inc/TGM/class-tgm-plugin-activation.php:403
+msgid "No action taken. Plugin %1$s was already active."
+msgstr ""
+
+#. translators: 1: plugin name.
+#: inc/TGM/class-tgm-plugin-activation.php:405
+msgid "Plugin not activated. A higher version of %s is needed for this theme. Please update the plugin."
+msgstr ""
+
+#. translators: 1: dashboard link.
+#: inc/TGM/class-tgm-plugin-activation.php:407
+msgid "All plugins installed and activated successfully. %1$s"
+msgstr ""
+
+#: inc/TGM/class-tgm-plugin-activation.php:408
+msgid "Dismiss this notice"
+msgstr ""
+
+#: inc/TGM/class-tgm-plugin-activation.php:409
+msgid "There are one or more required or recommended plugins to install, update or activate."
+msgstr ""
+
+#: inc/TGM/class-tgm-plugin-activation.php:410
+msgid "Please contact the administrator of this site for help."
+msgstr ""
+
+#: inc/TGM/class-tgm-plugin-activation.php:616
+msgid "This plugin needs to be updated to be compatible with your theme."
+msgstr ""
+
+#: inc/TGM/class-tgm-plugin-activation.php:617
+msgid "Update Required"
+msgstr ""
+
+#: inc/TGM/class-tgm-plugin-activation.php:735
+msgid "Set the parent_slug config variable instead."
+msgstr ""
+
+#: inc/TGM/class-tgm-plugin-activation.php:1042
+msgid "The remote plugin package does not contain a folder with the desired slug and renaming did not work."
+msgstr ""
+
+#: inc/TGM/class-tgm-plugin-activation.php:1042
+#: inc/TGM/class-tgm-plugin-activation.php:1052
+msgid "Please contact the plugin provider and ask them to package their plugin according to the WordPress guidelines."
+msgstr ""
+
+#: inc/TGM/class-tgm-plugin-activation.php:1052
+msgid "The remote plugin package consists of more than one file, but the files are not packaged in a folder."
+msgstr ""
+
+#: inc/TGM/class-tgm-plugin-activation.php:1243
+#: inc/TGM/class-tgm-plugin-activation.php:3099
+msgctxt "plugin A *and* plugin B"
+msgid "and"
+msgstr ""
+
+#. translators: %s: version number
+#: inc/TGM/class-tgm-plugin-activation.php:2112
+msgid "TGMPA v%s"
+msgstr ""
+
+#: inc/TGM/class-tgm-plugin-activation.php:2421
+msgid "Required"
+msgstr ""
+
+#: inc/TGM/class-tgm-plugin-activation.php:2424
+msgid "Recommended"
+msgstr ""
+
+#: inc/TGM/class-tgm-plugin-activation.php:2440
+msgid "WordPress Repository"
+msgstr ""
+
+#: inc/TGM/class-tgm-plugin-activation.php:2443
+msgid "External Source"
+msgstr ""
+
+#: inc/TGM/class-tgm-plugin-activation.php:2446
+msgid "Pre-Packaged"
+msgstr ""
+
+#: inc/TGM/class-tgm-plugin-activation.php:2463
+msgid "Not Installed"
+msgstr ""
+
+#: inc/TGM/class-tgm-plugin-activation.php:2467
+msgid "Installed But Not Activated"
+msgstr ""
+
+#: inc/TGM/class-tgm-plugin-activation.php:2469
+msgid "Active"
+msgstr ""
+
+#: inc/TGM/class-tgm-plugin-activation.php:2475
+msgid "Required Update not Available"
+msgstr ""
+
+#: inc/TGM/class-tgm-plugin-activation.php:2478
+msgid "Requires Update"
+msgstr ""
+
+#: inc/TGM/class-tgm-plugin-activation.php:2481
+msgid "Update recommended"
+msgstr ""
+
+#. translators: 1: install status, 2: update status
+#: inc/TGM/class-tgm-plugin-activation.php:2490
+msgctxt "Install/Update Status"
+msgid "%1$s, %2$s"
+msgstr ""
+
+#. translators: 1: number of plugins.
+#: inc/TGM/class-tgm-plugin-activation.php:2536
+msgctxt "plugins"
+msgid "All <span class=\"count\">(%s)</span>"
+msgid_plural "All <span class=\"count\">(%s)</span>"
+msgstr[0] ""
+msgstr[1] ""
+
+#. translators: 1: number of plugins.
+#: inc/TGM/class-tgm-plugin-activation.php:2540
+msgid "To Install <span class=\"count\">(%s)</span>"
+msgid_plural "To Install <span class=\"count\">(%s)</span>"
+msgstr[0] ""
+msgstr[1] ""
+
+#. translators: 1: number of plugins.
+#: inc/TGM/class-tgm-plugin-activation.php:2544
+msgid "Update Available <span class=\"count\">(%s)</span>"
+msgid_plural "Update Available <span class=\"count\">(%s)</span>"
+msgstr[0] ""
+msgstr[1] ""
+
+#. translators: 1: number of plugins.
+#: inc/TGM/class-tgm-plugin-activation.php:2548
+msgid "To Activate <span class=\"count\">(%s)</span>"
+msgid_plural "To Activate <span class=\"count\">(%s)</span>"
+msgstr[0] ""
+msgstr[1] ""
+
+#: inc/TGM/class-tgm-plugin-activation.php:2630
+msgctxt "as in: \"version nr unknown\""
+msgid "unknown"
+msgstr ""
+
+#: inc/TGM/class-tgm-plugin-activation.php:2638
+msgid "Installed version:"
+msgstr ""
+
+#: inc/TGM/class-tgm-plugin-activation.php:2646
+msgid "Minimum required version:"
+msgstr ""
+
+#: inc/TGM/class-tgm-plugin-activation.php:2658
+msgid "Available version:"
+msgstr ""
+
+#: inc/TGM/class-tgm-plugin-activation.php:2681
+msgid "No plugins to install, update or activate."
+msgstr ""
+
+#: inc/TGM/class-tgm-plugin-activation.php:2695
+msgid "Plugin"
+msgstr ""
+
+#: inc/TGM/class-tgm-plugin-activation.php:2696
+msgid "Source"
+msgstr ""
+
+#: inc/TGM/class-tgm-plugin-activation.php:2697
+msgid "Type"
+msgstr ""
+
+#: inc/TGM/class-tgm-plugin-activation.php:2701
+msgid "Version"
+msgstr ""
+
+#: inc/TGM/class-tgm-plugin-activation.php:2702
+msgid "Status"
+msgstr ""
+
+#. translators: %2$s: plugin name in screen reader markup
+#: inc/TGM/class-tgm-plugin-activation.php:2751
+msgid "Install %2$s"
+msgstr ""
+
+#. translators: %2$s: plugin name in screen reader markup
+#: inc/TGM/class-tgm-plugin-activation.php:2756
+msgid "Update %2$s"
+msgstr ""
+
+#. translators: %2$s: plugin name in screen reader markup
+#: inc/TGM/class-tgm-plugin-activation.php:2762
+msgid "Activate %2$s"
+msgstr ""
+
+#: inc/TGM/class-tgm-plugin-activation.php:2834
+msgid "Upgrade message from the plugin author:"
+msgstr ""
+
+#: inc/TGM/class-tgm-plugin-activation.php:2867
+msgid "Install"
+msgstr ""
+
+#: inc/TGM/class-tgm-plugin-activation.php:2873
+msgid "Update"
+msgstr ""
+
+#: inc/TGM/class-tgm-plugin-activation.php:2876
+msgid "Activate"
+msgstr ""
+
+#: inc/TGM/class-tgm-plugin-activation.php:2907
+msgid "No plugins were selected to be installed. No action taken."
+msgstr ""
+
+#: inc/TGM/class-tgm-plugin-activation.php:2909
+msgid "No plugins were selected to be updated. No action taken."
+msgstr ""
+
+#: inc/TGM/class-tgm-plugin-activation.php:2950
+msgid "No plugins are available to be installed at this time."
+msgstr ""
+
+#: inc/TGM/class-tgm-plugin-activation.php:2952
+msgid "No plugins are available to be updated at this time."
+msgstr ""
+
+#: inc/TGM/class-tgm-plugin-activation.php:3059
+msgid "No plugins were selected to be activated. No action taken."
+msgstr ""
+
+#: inc/TGM/class-tgm-plugin-activation.php:3085
+msgid "No plugins are available to be activated at this time."
+msgstr ""
+
+#: inc/TGM/class-tgm-plugin-activation.php:3310
+msgid "Plugin activation failed."
+msgstr ""
+
+#. translators: 1: plugin name, 2: action number 3: total number of actions.
+#: inc/TGM/class-tgm-plugin-activation.php:3655
+msgid "Updating Plugin %1$s (%2$d/%3$d)"
+msgstr ""
+
+#. translators: 1: plugin name, 2: error message.
+#: inc/TGM/class-tgm-plugin-activation.php:3658
+msgid "An error occurred while installing %1$s: <strong>%2$s</strong>."
+msgstr ""
+
+#. translators: 1: plugin name.
+#: inc/TGM/class-tgm-plugin-activation.php:3660
+msgid "The installation of %1$s failed."
+msgstr ""
+
+#: inc/TGM/class-tgm-plugin-activation.php:3664
+msgid "The installation and activation process is starting. This process may take a while on some hosts, so please be patient."
+msgstr ""
+
+#. translators: 1: plugin name.
+#: inc/TGM/class-tgm-plugin-activation.php:3666
+msgid "%1$s installed and activated successfully."
+msgstr ""
+
+#: inc/TGM/class-tgm-plugin-activation.php:3667
+msgid "All installations and activations have been completed."
+msgstr ""
+
+#. translators: 1: plugin name, 2: action number 3: total number of actions.
+#: inc/TGM/class-tgm-plugin-activation.php:3669
+msgid "Installing and Activating Plugin %1$s (%2$d/%3$d)"
+msgstr ""
+
+#: inc/TGM/class-tgm-plugin-activation.php:3672
+msgid "The installation process is starting. This process may take a while on some hosts, so please be patient."
+msgstr ""
+
+#. translators: 1: plugin name.
+#: inc/TGM/class-tgm-plugin-activation.php:3674
+msgid "%1$s installed successfully."
+msgstr ""
+
+#: inc/TGM/class-tgm-plugin-activation.php:3675
+msgid "All installations have been completed."
+msgstr ""
+
+#. translators: 1: plugin name, 2: action number 3: total number of actions.
+#: inc/TGM/class-tgm-plugin-activation.php:3677
+msgid "Installing Plugin %1$s (%2$d/%3$d)"
+msgstr ""
+
+#: inc/TGM/class-tgm-plugin-activation.php:3682
+msgid "Show Details"
+msgstr ""
+
+#: inc/TGM/class-tgm-plugin-activation.php:3682
+msgid "Hide Details"
+msgstr ""
+
+#: inc/TGM/tgm.php:11
+msgid "WooCommerce"
+msgstr ""
+
+#: inc/TGM/tgm.php:17
+msgid "GTranslate"
+msgstr ""
+
+#: inc/TGM/tgm.php:23
+msgid "woocommerce-currency-switcher"
+msgstr ""
+
+#: inc/TGM/tgm.php:29
+msgid "MC Woocommerce Wishlist"
+msgstr ""
+
+#: patterns/404.php
+msgctxt "Pattern title"
+msgid "Page Not Found"
+msgstr ""
+
+#: patterns/404.php:11
+msgid "404"
+msgstr ""
+
+#: patterns/404.php:15
+msgid "Page not found!"
+msgstr ""
+
+#: patterns/404.php:19
+msgid "Sorry, the page you are looking for does not exist or has been moved."
+msgstr ""
+
+#: patterns/404.php:24
+msgid "Return Home"
+msgstr ""
+
+#: patterns/archive.php
+msgctxt "Pattern title"
+msgid "Archives"
+msgstr ""
+
+#: patterns/banner.php
+msgctxt "Pattern title"
+msgid "Banner"
+msgstr ""
+
+#: patterns/banner.php:17
+#: patterns/banner.php:67
+#: patterns/banner.php:117
+msgid "Designing For"
+msgstr ""
+
+#: patterns/banner.php:21
+#: patterns/banner.php:71
+#: patterns/banner.php:121
+msgid "Innovative Tools"
+msgstr ""
+
+#: patterns/banner.php:25
+#: patterns/banner.php:75
+#: patterns/banner.php:125
+msgid "Start Tools At "
+msgstr ""
+
+#: patterns/banner.php:25
+#: patterns/banner.php:51
+#: patterns/banner.php:75
+#: patterns/banner.php:101
+#: patterns/banner.php:125
+#: patterns/banner.php:151
+msgid "$89"
+msgstr ""
+
+#: patterns/banner.php:25
+#: patterns/banner.php:75
+#: patterns/banner.php:125
+msgid " Only"
+msgstr ""
+
+#: patterns/banner.php:29
+#: patterns/banner.php:79
+#: patterns/banner.php:129
+msgid "It is a long established fact that a reader will be distracted by the readable content of a page when looking"
+msgstr ""
+
+#: patterns/banner.php:34
+#: patterns/banner.php:84
+#: patterns/banner.php:134
+msgid "Shop Now"
+msgstr ""
+
+#: patterns/banner.php:55
+#: patterns/banner.php:105
+#: patterns/banner.php:155
+msgid "Only"
+msgstr ""
+
+#: patterns/cart.php
+msgctxt "Pattern title"
+msgid "Cart"
+msgstr ""
+
+#: patterns/cart.php:18
+msgid "You may be interested in…"
+msgstr ""
+
+#: patterns/cart.php:74
+msgid "Your cart is currently empty!"
+msgstr ""
+
+#: patterns/cart.php:82
+msgid "New in store"
+msgstr ""
+
+#: patterns/footer.php
+msgctxt "Pattern title"
+msgid "Footer"
+msgstr ""
+
+#: patterns/footer.php:13
+msgid "Swoo - 1st NYC Tech Online Market"
+msgstr ""
+
+#: patterns/footer.php:17
+msgid "Hotline 24/7"
+msgstr ""
+
+#: patterns/footer.php:21
+msgid "(025) 3686 25 16"
+msgstr ""
+
+#: patterns/footer.php:25
+msgid "257 Thatcher Road St, Brooklyn, Manhattan,"
+msgstr ""
+
+#: patterns/footer.php:25
+msgid "NY 10092"
+msgstr ""
+
+#: patterns/footer.php:29
+msgid "support@example.com"
+msgstr ""
+
+#: patterns/footer.php:47
+msgid "Top Categories"
+msgstr ""
+
+#: patterns/footer.php:65
+msgid "Company"
+msgstr ""
+
+#: patterns/footer.php:81
+msgid "Help Center"
+msgstr ""
+
+#: patterns/footer.php:97
+msgid "Partner"
+msgstr ""
+
+#: patterns/footer.php:116
+msgid "Hardware Tools Store WordPress Theme."
+msgstr ""
+
+#: patterns/footer.php:116
+msgid " Proudly powered by "
+msgstr ""
+
+#: patterns/footer.php:116
+msgid "Ovation Themes"
+msgstr ""
+
+#: patterns/footer.php:116
+msgid "and"
+msgstr ""
+
+#: patterns/footer.php:116
+msgid "WordPress"
+msgstr ""
+
+#: patterns/header-image.php
+msgctxt "Pattern title"
+msgid "Header Image"
+msgstr ""
+
+#: patterns/header.php
+msgctxt "Pattern title"
+msgid "Header"
+msgstr ""
+
+#: patterns/header.php:13
+msgid "Welcome to our "
+msgstr ""
+
+#: patterns/header.php:13
+msgid "Hardware shop"
+msgstr ""
+
+#: patterns/header.php:26
+msgid "Track Order"
+msgstr ""
+
+#: patterns/header.php:38
+msgid "Compare"
+msgstr ""
+
+#: patterns/header.php:50
+msgid "Customer Support"
+msgstr ""
+
+#: patterns/header.php:62
+msgid "Need Help"
+msgstr ""
+
+#: patterns/header.php:74
+msgid "Follow us :"
+msgstr ""
+
+#: patterns/header.php:176
+msgid "+1-202-555-0104"
+msgstr ""
+
+#: patterns/index-header-image.php
+msgctxt "Pattern title"
+msgid "Index Header Image"
+msgstr ""
+
+#: patterns/index-header-image.php:11
+msgid "blog"
+msgstr ""
+
+#: patterns/latest-news.php
+msgctxt "Pattern title"
+msgid "Latest News"
+msgstr ""
+
+#: patterns/latest-news.php:15
+msgid "Our Blog"
+msgstr ""
+
+#: patterns/latest-news.php:19
+msgid "Our Latest News &amp; Blog"
+msgstr ""
+
+#: patterns/latest-news.php:65
+msgid "There is no post found"
+msgstr ""
+
+#: patterns/more-post.php
+msgctxt "Pattern title"
+msgid "More Post"
+msgstr ""
+
+#: patterns/more-post.php:11
+msgid "More Articles &amp; Posts"
+msgstr ""
+
+#: patterns/page-title.php
+msgctxt "Pattern title"
+msgid "Page Title"
+msgstr ""
+
+#: patterns/products.php
+msgctxt "Pattern title"
+msgid "Products"
+msgstr ""
+
+#: patterns/products.php:11
+msgid "Our Top Product"
+msgstr ""
+
+#: patterns/products.php:27
+#: patterns/products.php:59
+#: patterns/products.php:91
+#: patterns/products.php:123
+#: patterns/products.php:157
+#: patterns/products.php:189
+#: patterns/products.php:221
+#: patterns/products.php:253
+msgid "4.8"
+msgstr ""
+
+#: patterns/products.php:32
+#: patterns/products.php:226
+msgid "Plastic Pipe"
+msgstr ""
+
+#: patterns/products.php:36
+#: patterns/products.php:68
+#: patterns/products.php:100
+#: patterns/products.php:132
+#: patterns/products.php:166
+#: patterns/products.php:198
+#: patterns/products.php:230
+#: patterns/products.php:262
+msgid "$124.00"
+msgstr ""
+
+#: patterns/products.php:36
+#: patterns/products.php:68
+#: patterns/products.php:100
+#: patterns/products.php:132
+#: patterns/products.php:166
+#: patterns/products.php:198
+#: patterns/products.php:230
+#: patterns/products.php:262
+msgid " $110.00"
+msgstr ""
+
+#: patterns/products.php:64
+#: patterns/products.php:258
+msgid "Valve Chlorinated"
+msgstr ""
+
+#: patterns/products.php:96
+#: patterns/products.php:162
+msgid "Villeroy &amp; Boch Sink"
+msgstr ""
+
+#: patterns/products.php:128
+#: patterns/products.php:194
+msgid "Flush toilet Ceramic"
+msgstr ""
+
+#: patterns/search-product.php
+msgctxt "Pattern title"
+msgid "Search Product"
+msgstr ""
+
+#: patterns/search-product.php:42
+msgid "No products were found matching your selection."
+msgstr ""
+
+#: patterns/search.php
+msgctxt "Pattern title"
+msgid "Search"
+msgstr ""
+
+#: patterns/sidebar.php
+msgctxt "Pattern title"
+msgid "Sidebar"
+msgstr ""
+
+#: patterns/sidebar.php:12
+msgid "Search"
+msgstr ""
+
+#: patterns/sidebar.php:22
+msgid "Popular Posts"
+msgstr ""
+
+#: patterns/sidebar.php:38
+msgid "Categories"
+msgstr ""
+
+#: patterns/sidebar.php:48
+msgid "Pages"
+msgstr ""
+
+#: patterns/sidebar.php:58
+msgid "Archives"
+msgstr ""
+
+#: patterns/sidebar.php:68
+msgid "Tags"
+msgstr ""
+
+#: patterns/sidebar.php:78
+msgid "Follow Us"
+msgstr ""
+
+#: patterns/single-product.php
+msgctxt "Pattern title"
+msgid "Single Product"
+msgstr ""
+
+#: patterns/single-product.php:46
+msgid "Related Products"
+msgstr ""
+
+#: patterns/testimonial.php
+msgctxt "Pattern title"
+msgid "Testimonial"
+msgstr ""
+
+#: patterns/testimonial.php:15
+msgid "Product Reviews"
+msgstr ""
+
+#: patterns/testimonial.php:27
+msgid "Ava Mitchell"
+msgstr ""
+
+#: patterns/testimonial.php:31
+#: patterns/testimonial.php:51
+#: patterns/testimonial.php:71
+#: patterns/testimonial.php:91
+#: patterns/testimonial.php:111
+msgid "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Semper ultricies urna et imperdiet et pulvinar in ullamcorper. Cursus tellus tincidunt elementum…"
+msgstr ""
+
+#: patterns/testimonial.php:47
+msgid "Rahul Desai"
+msgstr ""
+
+#: patterns/testimonial.php:67
+msgid "Claire Benson"
+msgstr ""
+
+#: patterns/testimonial.php:87
+#: patterns/testimonial.php:107
+msgid "Liam Chen"
+msgstr ""
+
+#: styles/dark.json
+msgctxt "Style variation name"
+msgid "Dark"
+msgstr ""
+
+#: styles/dark.json
+#: styles/ember-glow.json
+#: styles/pink-blue.json
+#: styles/red-green.json
+#: styles/sky-surge.json
+#: styles/teal.json
+#: styles/yellow-blue.json
+#: theme.json
+msgctxt "Color name"
+msgid "Base"
+msgstr ""
+
+#: styles/dark.json
+#: styles/ember-glow.json
+#: styles/pink-blue.json
+#: styles/red-green.json
+#: styles/sky-surge.json
+#: styles/teal.json
+#: styles/yellow-blue.json
+#: theme.json
+msgctxt "Color name"
+msgid "Primary"
+msgstr ""
+
+#: styles/dark.json
+#: styles/ember-glow.json
+#: styles/pink-blue.json
+#: styles/red-green.json
+#: styles/sky-surge.json
+#: styles/teal.json
+#: styles/yellow-blue.json
+#: theme.json
+msgctxt "Color name"
+msgid "Primary Light"
+msgstr ""
+
+#: styles/dark.json
+#: styles/ember-glow.json
+#: styles/pink-blue.json
+#: styles/red-green.json
+#: styles/sky-surge.json
+#: styles/teal.json
+#: styles/yellow-blue.json
+#: theme.json
+msgctxt "Color name"
+msgid "Secondary"
+msgstr ""
+
+#: styles/dark.json
+#: styles/ember-glow.json
+#: styles/pink-blue.json
+#: styles/red-green.json
+#: styles/sky-surge.json
+#: styles/teal.json
+#: styles/yellow-blue.json
+#: theme.json
+msgctxt "Color name"
+msgid "Banner Background"
+msgstr ""
+
+#: styles/dark.json
+#: styles/ember-glow.json
+#: styles/pink-blue.json
+#: styles/red-green.json
+#: styles/sky-surge.json
+#: styles/teal.json
+#: styles/yellow-blue.json
+#: theme.json
+msgctxt "Color name"
+msgid "Product Background"
+msgstr ""
+
+#: styles/dark.json
+#: styles/ember-glow.json
+#: styles/pink-blue.json
+#: styles/red-green.json
+#: styles/sky-surge.json
+#: styles/teal.json
+#: styles/yellow-blue.json
+#: theme.json
+msgctxt "Color name"
+msgid "Headings"
+msgstr ""
+
+#: styles/dark.json
+#: styles/ember-glow.json
+#: styles/pink-blue.json
+#: styles/red-green.json
+#: styles/sky-surge.json
+#: styles/teal.json
+#: styles/yellow-blue.json
+#: theme.json
+msgctxt "Color name"
+msgid "Body Text"
+msgstr ""
+
+#: styles/dark.json
+#: styles/ember-glow.json
+#: styles/pink-blue.json
+#: styles/red-green.json
+#: styles/sky-surge.json
+#: styles/teal.json
+#: styles/yellow-blue.json
+#: theme.json
+msgctxt "Color name"
+msgid "Section Background"
+msgstr ""
+
+#: styles/dark.json
+#: styles/ember-glow.json
+#: styles/pink-blue.json
+#: styles/red-green.json
+#: styles/sky-surge.json
+#: styles/teal.json
+#: styles/yellow-blue.json
+#: theme.json
+msgctxt "Color name"
+msgid "Background"
+msgstr ""
+
+#: styles/dark.json
+#: styles/ember-glow.json
+#: styles/pink-blue.json
+#: styles/red-green.json
+#: styles/sky-surge.json
+#: styles/teal.json
+#: styles/yellow-blue.json
+#: theme.json
+msgctxt "Color name"
+msgid "Foreground"
+msgstr ""
+
+#: styles/dark.json
+#: styles/ember-glow.json
+#: styles/pink-blue.json
+#: styles/red-green.json
+#: styles/sky-surge.json
+#: styles/teal.json
+#: styles/yellow-blue.json
+#: theme.json
+msgctxt "Color name"
+msgid "Footer Bg"
+msgstr ""
+
+#: styles/dark.json
+#: styles/ember-glow.json
+#: styles/pink-blue.json
+#: styles/red-green.json
+#: styles/sky-surge.json
+#: styles/teal.json
+#: styles/yellow-blue.json
+#: theme.json
+msgctxt "Color name"
+msgid "Border Color"
+msgstr ""
+
+#: styles/dark.json
+#: styles/ember-glow.json
+#: styles/pink-blue.json
+#: styles/red-green.json
+#: styles/sky-surge.json
+#: styles/teal.json
+#: styles/yellow-blue.json
+#: theme.json
+msgctxt "Color name"
+msgid "Sidebar Shadow Color"
+msgstr ""
+
+#: styles/ember-glow.json
+msgctxt "Style variation name"
+msgid "Ember Glow"
+msgstr ""
+
+#: styles/pink-blue.json
+msgctxt "Style variation name"
+msgid "Pink-Blue"
+msgstr ""
+
+#: styles/red-green.json
+msgctxt "Style variation name"
+msgid "Red Green"
+msgstr ""
+
+#: styles/sky-surge.json
+msgctxt "Style variation name"
+msgid "Sky Surge"
+msgstr ""
+
+#: styles/teal.json
+msgctxt "Style variation name"
+msgid "Teal"
+msgstr ""
+
+#: styles/yellow-blue.json
+msgctxt "Style variation name"
+msgid "Yellow-Blue"
+msgstr ""
+
+#: theme.json
+msgctxt "Style variation name"
+msgid "Lite"
+msgstr ""
+
+#: theme.json
+msgctxt "Gradient name"
+msgid "Vertical heading to base"
+msgstr ""
+
+#: theme.json
+msgctxt "Gradient name"
+msgid "Vertical base to heading"
+msgstr ""
+
+#: theme.json
+msgctxt "Gradient name"
+msgid "Heading to base"
+msgstr ""
+
+#: theme.json
+msgctxt "Gradient name"
+msgid "Base to heading"
+msgstr ""
+
+#: theme.json
+msgctxt "Gradient name"
+msgid "Diagonal heading to base left"
+msgstr ""
+
+#: theme.json
+msgctxt "Gradient name"
+msgid "Diagonal heading to base right"
+msgstr ""
+
+#: theme.json
+msgctxt "Gradient name"
+msgid "Diagonal base to heading"
+msgstr ""
+
+#: theme.json
+msgctxt "Gradient name"
+msgid "Diagonal heading to base"
+msgstr ""
+
+#: theme.json
+msgctxt "Gradient name"
+msgid "Vertical heading to primary"
+msgstr ""
+
+#: theme.json
+msgctxt "Gradient name"
+msgid "Vertical primary to heading"
+msgstr ""
+
+#: theme.json
+msgctxt "Gradient name"
+msgid "Heading to primary"
+msgstr ""
+
+#: theme.json
+msgctxt "Gradient name"
+msgid "Primary to heading"
+msgstr ""
+
+#: theme.json
+msgctxt "Gradient name"
+msgid "Diagonal heading to primary left"
+msgstr ""
+
+#: theme.json
+msgctxt "Gradient name"
+msgid "Diagonal heading to primary right"
+msgstr ""
+
+#: theme.json
+msgctxt "Gradient name"
+msgid "Diagonal primary to heading"
+msgstr ""
+
+#: theme.json
+msgctxt "Gradient name"
+msgid "Diagonal heading to primary"
+msgstr ""
+
+#: theme.json
+msgctxt "Gradient name"
+msgid "Vertical primary to secondary"
+msgstr ""
+
+#: theme.json
+msgctxt "Gradient name"
+msgid "Vertical secondary to primary"
+msgstr ""
+
+#: theme.json
+msgctxt "Gradient name"
+msgid "secondary to primary"
+msgstr ""
+
+#: theme.json
+msgctxt "Gradient name"
+msgid "Primary to secondary"
+msgstr ""
+
+#: theme.json
+msgctxt "Gradient name"
+msgid "Diagonal primary to secondary left"
+msgstr ""
+
+#: theme.json
+msgctxt "Gradient name"
+msgid "Diagonal primary to secondary right"
+msgstr ""
+
+#: theme.json
+msgctxt "Gradient name"
+msgid "Diagonal secondary to primary"
+msgstr ""
+
+#: theme.json
+msgctxt "Gradient name"
+msgid "Diagonal primary to secondary"
+msgstr ""
+
+#: theme.json
+msgctxt "Font family name"
+msgid "Righteous"
+msgstr ""
+
+#: theme.json
+msgctxt "Font family name"
+msgid "Figtree"
+msgstr ""
+
+#: theme.json
+msgctxt "Font family name"
+msgid "Outfit"
+msgstr ""
+
+#: theme.json
+msgctxt "Font family name"
+msgid "Lora"
+msgstr ""
+
+#: theme.json
+msgctxt "Font family name"
+msgid "Inter"
+msgstr ""
+
+#: theme.json
+msgctxt "Font family name"
+msgid "Public Sans"
+msgstr ""
+
+#: theme.json
+msgctxt "Font size name"
+msgid "Body Text"
+msgstr ""
+
+#: theme.json
+msgctxt "Font size name"
+msgid "Extra Small"
+msgstr ""
+
+#: theme.json
+msgctxt "Font size name"
+msgid "Small"
+msgstr ""
+
+#: theme.json
+msgctxt "Font size name"
+msgid "Medium"
+msgstr ""
+
+#: theme.json
+msgctxt "Font size name"
+msgid "Regular"
+msgstr ""
+
+#: theme.json
+msgctxt "Font size name"
+msgid "Large"
+msgstr ""
+
+#: theme.json
+msgctxt "Font size name"
+msgid "Extra Large"
+msgstr ""
+
+#: theme.json
+msgctxt "Font size name"
+msgid "Big"
+msgstr ""
+
+#: theme.json
+msgctxt "Font size name"
+msgid "Huge"
+msgstr ""
+
+#: theme.json
+msgctxt "Font size name"
+msgid "Gigantic"
+msgstr ""
+
+#: theme.json
+msgctxt "Font size name"
+msgid "Banner Title"
+msgstr ""
+
+#: theme.json
+msgctxt "Template part name"
+msgid "Header"
+msgstr ""
+
+#: theme.json
+msgctxt "Template part name"
+msgid "Footer"
+msgstr ""
+
+#: theme.json
+msgctxt "Template part name"
+msgid "Sidebar"
+msgstr ""
+
+#: theme.json
+msgctxt "Custom template name"
+msgid "Grid Layout(Archieve posts)"
+msgstr ""
+
+#: theme.json
+msgctxt "Custom template name"
+msgid "Left Sidebar(Archieve posts)"
+msgstr ""
+
+#: theme.json
+msgctxt "Custom template name"
+msgid "Right Sidebar(Archieve posts)"
+msgstr ""
+
+#: theme.json
+msgctxt "Custom template name"
+msgid "Page Left Sidebar"
+msgstr ""
+
+#: theme.json
+msgctxt "Custom template name"
+msgid "Page Right Sidebar"
+msgstr ""
+
+#: theme.json
+msgctxt "Custom template name"
+msgid "Page No Header Image"
+msgstr ""
+
+#: theme.json
+msgctxt "Custom template name"
+msgid "Post Left Sidebar"
+msgstr ""
+
+#: theme.json
+msgctxt "Custom template name"
+msgid "Post No Sidebar"
+msgstr ""
+
+#: theme.json
+msgctxt "Custom template name"
+msgid "Post No Header Image"
+msgstr ""
